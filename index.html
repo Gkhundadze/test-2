@@ -1,14 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>დავალება 3</title>
 </head>
-<body>
+
+<body class="container">
+    <header class="header">
+        <div class="logo">
+            <img src="assets/img/logo.svg" alt="logo">
+        </div>
+        <nav class="nav">
+            <ul class="nav-ul">
+                <li class="nav-li">
+                    <a href="#" class="nav-link">მთავარი</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#" class="nav-link">პაკეტები</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#" class="nav-link">დოკუმენტაცია</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#" class="nav-link">ჩვენს შესახებ</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#" class="nav-link">
+                        <button class="purchase-btn">შეძენა</button>
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a href="#" class="nav-link">
+                        <button class="register-btn">რეგისტრაცია</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <h1>hello world</h1>
+        <section class="banner">
+            <div class="contact-box">
+                <h2 class="banner-title">არ გამოტოვო!</h2>
+                <form class="form-wrapper" action="#">
+                    <input class="mail-input" type="text" name="" id="" placeholder="გაგვიზიარე შენი ელ-ფოსტა">
+                    <button class="order-btn">წინასწარი შეკვეთა</button>
+                </form>
+            </div>
+        </section>
+        <section class="packages">
+            <div class="title-wrapper">
+                <img src="assets/img/packages-icon.svg" alt="">
+                <h2 class="main-title">პაკეტები</h2>
+            </div>
+            <div class="articles-wrapper">
+                <article class="article">
+                    <div class="article-body">
+                        <h3 class="article-heading">სტარტერი</h3>
+                        <span class="price">28ლ</span>
+                        <ul class="list-wrapper">
+                            <li class="list-item">შესაძლებლობა 1</li>
+                            <li class="list-item">შესაძლებლობა 2</li>
+                        </ul>
+                    </div>
+                    <button class="purchase-btn">შეძენა</button>
+                </article>
+                <article class="article">
+                    <div class="article-body">
+                        <h3 class="article-heading">პროფესიონალური</h3>
+                        <span class="price">42ლ</span>
+                        <ul class="list-wrapper">
+                            <li class="list-item">შესაძლებლობა 1</li>
+                            <li class="list-item">შესაძლებლობა 2</li>
+                            <li class="list-item">შესაძლებლობა 3</li>
+                            <li class="list-item">შესაძლებლობა 4</li>
+                        </ul>
+                    </div>
+                    <button class="purchase-btn">შეძენა</button>
+                </article>
+                <article class="article">
+                    <div class="article-body">
+                        <h3 class="article-heading">პროფესიონალური+</h3>
+                        <span class="price">62ლ</span>
+                        <ul class="list-wrapper">
+                            <li class="list-item">შესაძლებლობა 1</li>
+                            <li class="list-item">შესაძლებლობა 2</li>
+                            <li class="list-item">შესაძლებლობა 3</li>
+                            <li class="list-item">შესაძლებლობა 4</li>
+                            <li class="list-item">შესაძლებლობა 5</li>
+                            <li class="list-item">შესაძლებლობა 6</li>
+                        </ul>
+                    </div>
+                    <button class="purchase-btn">შეძენა</button>
+                </article>
+            </div>
+        </section>
+        <section class="documentation">
+            <div class="title-wrapper">
+                <img src="assets/img/documentation-icon.svg" alt="">
+                <h2 class="main-title">დოკუმენტაცია</h2>
+            </div>
+            <div class="articles-wrapper">
+                <article class="article doc">
+                    <h3 class="article-heading">სათაური</h3>
+                    <p class="article-description doc">Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია.</p>
+                    <a href="#" class="see-details">ვრცლად ...</a>
+                </article>
+                <article class="article doc">
+                    <h3 class="article-heading">სათაური</h3>
+                    <p class="article-description doc">Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია.</p>
+                    <a href="#" class="see-details">ვრცლად ...</a>
+                </article>
+            </div>
+        </section>
+        <section class="about">
+            <div class="title-wrapper">
+                <img src="assets/img/about-icon.svg" alt="">
+                <h2 class="main-title">ჩვენს შესახებ</h2>
+            </div>
+            <div class="articles-wrapper">
+                <article class="article about-article">
+                    <p class="article-description about-desc">
+                        ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.
+                    </p>
+                </article>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.1185667498607!2d44.78244501537352!3d41.71796027923525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d4fa5b02d7%3A0xced15c2c7992ceb5!2z4YOv4YOU4YOd4YOa4YOQ4YOR4YOY!5e0!3m2!1ska!2sge!4v1653834173001!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <span>©2020-2022   All rights reserved</span>
+        <div class="social-icons-wrapper">
+            <img src="assets/img/youtube.png" alt="youtube">
+            <img src="assets/img/facebook.png" alt="facebook">
+            <img src="assets/img/snapchat.png" alt="snapchat">
+            <img src="assets/img/google.png" alt="google">
+        </div>
+    </footer>
 </body>
+
 </html>

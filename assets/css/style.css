@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: 0;
+    outline: 0;
+}
+a{
+    color: inherit;
+}
+
+:root {
+    --backgroundColor: #171717;
+    --bannerBackground: #135180;
+    --cardsBackground: #292929;
+    --btnBackground: #27A1FF;
+    --listBackgroundOne: #3A3A3A;
+    --listBackgroundTwo: #464646;
+    --textColor: #fff;
+}
+.container {
+    max-width: 1292px;
+    width: 95%;
+    margin: 0 auto;
+}
+body {
+    color: var(--textColor);
+    background-color: var(--backgroundColor);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.logo {
+    height: 48px;
+}
+.logo img {
+    height: 100%;
+    display: block;
+}
+.nav-ul {
+    display: flex;
+    align-items: center;
+    color: var(--textColor);
+    font-size: 18px;
+}
+.nav-li:not(:last-child) {
+    margin-right: 35px;
+}
+.purchase-btn, .register-btn {
+    padding: 12px 24px;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--textColor);
+}
+.purchase-btn {
+    background-color: var(--btnBackground);
+}
+.register-btn {
+    background-color: var(--cardsBackground);
+}
+.banner {
+    height: 393px;
+    background-color: var(--bannerBackground);
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    border-radius: 12px;
+}
+.contact-box {
+    max-width: 940px;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translateX(-50%);
+}
+.form-wrapper {
+    display: flex;
+}
+.banner-title {
+    font-size: 54px;
+    margin-bottom: 24px;
+}
+.mail-input, .order-btn {
+    padding: 30px;
+    font-size: 22px;
+    color: var(--textColor);
+}
+.mail-input {
+    background-color: #0B2F4B;
+    width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.order-btn {
+    background-color: var(--btnBackground);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.title-wrapper {
+    margin-bottom: 36px;
+}
+.main-title {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.title-wrapper img {
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.articles-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article {
+    background-color: var(--cardsBackground);
+    border-radius: 12px;
+    width: 400px;
+}
+.list-item:nth-child(odd) {
+    background-color: var(--listBackgroundOne)
+}
+.list-item:nth-child(even) {
+    background-color: var(--listBackgroundTwo)
+}
+.article-heading {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.price {
+    display: block;
+    margin-bottom: 40px;
+}
+.article-body {
+    padding: 20px;
+}
+.list-wrapper {
+    min-height: 300px;
+}
+.list-item {
+    padding: 12px 0 12px 22px;
+}
+.article .purchase-btn {
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+}
+.packages, .documentation, .banner, .about {
+    margin-bottom: 60px;
+}
+.article.doc, .article.about-article {
+    width: 600px;
+    padding: 25px;
+}
+.article-description.doc, .article-description.about-desc {
+    font-size: 22px;
+    opacity: .5;
+}
+.article.doc .see-details{
+    font-size: 22px;
+    color: var(--btnBackground);
+    float: right;
+    margin-top: 12px;
+}
+.map iframe, .about-article {
+    height: 550px;
+}
+.map iframe {
+    border-radius: 12px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-top: 1px solid #636363;
+}
+footer span {
+    font-size: 23px;
+    opacity: .5;
+}
+.social-icons-wrapper img {
+    cursor: pointer;
+}
+.social-icons-wrapper img:not(:last-child) {
+    margin-right: 10px;
+}
